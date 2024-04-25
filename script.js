@@ -1,4 +1,4 @@
-const hurl = window.location.href;
+const hurl = "https://filestore-ismartboiujjwal.koyeb.app/watch/969";
 const videoUrl = hurl.replace("/watch/", "/dl/");
 
 
