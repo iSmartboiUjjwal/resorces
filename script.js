@@ -10,8 +10,8 @@ function vlc() {
 
 function mx() {
     const nlink = videoUrl;
-    const openMx = `intent:${nlink}#Intent;package=com.mxtech.videoplayer.ad;end`;
-    window.location.href = openMx;
+    const mxp = `intent:${nlink}#Intent;package=com.mxtech.videoplayer.ad;end`;
+    window.location.href = mxp;
 }
 
 function playit() {
