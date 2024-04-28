@@ -10,32 +10,32 @@ function vlc() {
 
 function mx() {
     const nlink = videoUrl;
-    const openMx = `intent:${openbisallink}#Intent;package=com.mxtech.videoplayer.ad;end`;
+    const openMx = `intent:${nlink}#Intent;package=com.mxtech.videoplayer.ad;end`;
     window.location.href = openMx;
 }
 
 function playit() {
     const nlink = videoUrl;
-    const pl = `playit://playerv2/video?url=${nlink}`;
-    window.location.href = pl;
+    const pli = `playit://playerv2/video?url=${nlink}`;
+    window.location.href = pli;
 }
 
 function s() {
     const nlink = videoUrl;
-    const sp = `intent:${nlink}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
-    window.location.href = sp;
+    const spl = `intent:${nlink}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
+    window.location.href = spl;
 }
 
 function km() {
     const nlink = videoUrl;
-    const km = `intent:${nlink}#Intent;package=com.kmplayer;end`;
-    window.location.href = km;
+    const kmp = `intent:${nlink}#Intent;package=com.kmplayer;end`;
+    window.location.href = kmp;
 }
 
-function Hd() {
+function hd() {
     const nlink = videoUrl;
-    const hd = `intent:${nlink}#Intent;package=uplayer.video.player;end`;
-    window.location.href = hd;
+    const hdp = `intent:${nlink}#Intent;package=uplayer.video.player;end`;
+    window.location.href = hdp;
 }
 
 function dl() {
