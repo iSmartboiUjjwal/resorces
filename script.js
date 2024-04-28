@@ -27,7 +27,7 @@ function getPlayerUrl(playerName) {
 }
 
 function launchPlayer(url) {
-    window.open(url, '_blank');
+    window.location.href = url;
 }
 
 function startFastDownload() {
